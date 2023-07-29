@@ -1,3 +1,4 @@
+# Exercise from https://app.codility.com/programmers/trainings/9/sparse_binary_decomposition/
 def solution(N):
   # Sparce decomposition always exists for the range of inputs for this exercise, so never need to return -1
   # Bitwise and with (101010101010101010101010101010)_2 since inputs range up to 1,000,000,000 which is 30 digits when represented in binary
